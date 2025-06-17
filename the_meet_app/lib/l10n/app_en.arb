@@ -1,0 +1,21 @@
+{
+  "appTitle": "Meet App",
+  "welcome": "Welcome to Meet App",
+  "login": "Log In",
+  "signUp": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot Password?",
+  "createAccount": "Create Account",
+  "profile": "Profile",
+  "settings": "Settings",
+  "logout": "Log Out",
+  "createMeet": "Create Meet",
+  "joinMeet": "Join Meet",
+  "meetName": "Meet Name",
+  "meetLocation": "Location",
+  "meetTime": "Time",
+  "meetDescription": "Description",
+  "save": "Save",
+  "cancel": "Cancel"
+}

@@ -1,0 +1,11 @@
+// Configuration template for API keys
+// Copy this file to api_config.dart and fill in your actual API keys
+
+class ApiConfig {
+  // Google Maps API Key
+  // Get this from: https://console.cloud.google.com/google/maps-apis/credentials
+  static const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
+  
+  // Firebase configuration will be handled by firebase_options.dart
+  // Make sure to replace the values there as well
+}

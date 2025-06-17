@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="the_meet_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <!-- Preload critical assets for performance optimization -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preload" href="assets/fonts/Montserrat-VariableFont_wght.ttf" as="font" crossorigin>
+  <link rel="preload" href="assets/images/chat_bg.png" as="image">
+  
+  <!-- Google Sign-in Client ID -->
+  <meta name="google-signin-client_id" content="YOUR_WEB_CLIENT_ID.apps.googleusercontent.com">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>the_meet_app</title>
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Add DNS prefetch for Firebase domains to speed up connectivity -->
+  <link rel="dns-prefetch" href="https://firestore.googleapis.com">
+  <link rel="dns-prefetch" href="https://storage.googleapis.com">
+  <link rel="dns-prefetch" href="https://identitytoolkit.googleapis.com">
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

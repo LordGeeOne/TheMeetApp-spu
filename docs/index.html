@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetApp SPU - Student Safety & Security Platform</title>
+    <meta name="description" content="A Flutter-based mobile safety application designed specifically for Sol Plaatje University (SPU) students.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>MeetApp SPU</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#safety" class="nav-link">Safety</a>
+                <a href="#developers" class="nav-link">Developers</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>🛡️ MeetApp SPU</h1>
+                <h2>Student Safety & Security Platform</h2>
+                <p>A Flutter-based mobile safety application designed specifically for Sol Plaatje University (SPU) students. Prioritizing student safety while facilitating secure social meetups and group coordination.</p>                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i>
+                        Explore Safety Features
+                    </a>
+                    <a href="https://github.com/YOUR_USERNAME/meetapp-spu" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-interface">
+                            <div class="status-bar"></div>
+                            <div class="app-header">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>MeetApp SPU</span>
+                            </div>
+                            <div class="safety-features">
+                                <div class="feature-item emergency">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <span>Emergency Alert</span>
+                                </div>
+                                <div class="feature-item location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Safe Location</span>
+                                </div>
+                                <div class="feature-item chat">
+                                    <i class="fas fa-comments"></i>
+                                    <span>Secure Chat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Safety-First Features</h2>
+                <p>Comprehensive security tools designed for SPU student safety</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon emergency">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Emergency & Security</h3>
+                    <ul>
+                        <li><strong>Panic Button</strong> - Instant emergency alerts</li>
+                        <li><strong>Safe Walk Feature</strong> - Real-time location sharing</li>
+                        <li><strong>Emergency Contacts</strong> - Quick access to help</li>
+                        <li><strong>Campus Security Integration</strong> - Direct communication</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon location">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Secure Location Management</h3>
+                    <ul>
+                        <li><strong>Campus Safe Zones</strong> - Pre-approved locations</li>
+                        <li><strong>Real-time Tracking</strong> - Verified student network</li>
+                        <li><strong>Route Safety Assessment</strong> - Safe campus routes</li>
+                        <li><strong>Group Monitoring</strong> - Track group activities</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon network">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Verified Student Network</h3>
+                    <ul>
+                        <li><strong>SPU Student Verification</strong> - ID-based access</li>
+                        <li><strong>Academic Integration</strong> - Student ID linking</li>
+                        <li><strong>Peer Safety Network</strong> - Secure connections</li>
+                        <li><strong>Mentor-Mentee Support</strong> - Safe coordination</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon academic">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Integration</h3>
+                    <ul>
+                        <li><strong>Study Group Coordination</strong> - Secure sessions</li>
+                        <li><strong>Campus Event Management</strong> - Safety protocols</li>
+                        <li><strong>Facility Booking</strong> - Campus integration</li>
+                        <li><strong>Calendar Sync</strong> - Academic schedule alignment</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon communication">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Secure Communication</h3>
+                    <ul>
+                        <li><strong>Encrypted Group Chat</strong> - Secure messaging</li>
+                        <li><strong>Anonymous Reporting</strong> - Safety concerns</li>
+                        <li><strong>Campus Updates</strong> - Security announcements</li>
+                        <li><strong>Peer Support Network</strong> - Counselor access</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon tech">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Technology Stack</h3>
+                    <ul>
+                        <li><strong>Flutter Framework</strong> - Cross-platform</li>
+                        <li><strong>Firebase Backend</strong> - Real-time data</li>
+                        <li><strong>Google Maps Integration</strong> - Location services</li>
+                        <li><strong>End-to-end Encryption</strong> - Data security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section id="safety" class="safety">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text">
+                    <h2>🎓 For SPU Students</h2>
+                    <h3>Getting Started</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Verify Your Student Status</h4>
+                                <p>Use your SPU student ID for verification</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Complete Safety Profile</h4>
+                                <p>Set up emergency contacts and safety preferences</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Join Study Groups</h4>
+                                <p>Connect with classmates and academic groups</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Explore Campus Events</h4>
+                                <p>Discover safe, university-approved activities</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Enable Safety Features</h4>
+                                <p>Activate location sharing and emergency alerts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emergency-contacts">
+                    <h3>📞 Campus Support & Security</h3>
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>SPU Campus Security</h4>
+                            <p>[Campus Security Number]</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h4>SAPS Kimberley</h4>
+                            <p>10111</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Campus Health Services</h4>
+                            <p>[Health Services Number]</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-user-friends"></i>
+                            <h4>Student Counseling</h4>
+                            <p>[Counseling Services Number]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="developers">
+        <div class="container">
+            <div class="section-header">
+                <h2>👨‍💻 For Developers</h2>
+                <p>Open source project built with security and student safety in mind</p>
+            </div>
+            <div class="dev-content">
+                <div class="dev-info">
+                    <h3>🏫 About This Project</h3>
+                    <p>MeetApp SPU is developed as a comprehensive student safety and security solution for Sol Plaatje University. The application addresses the unique safety challenges faced by university students, particularly in South Africa.</p>
+                    
+                    <h3>🎯 Project Goals</h3>
+                    <ul>
+                        <li><strong>Student Safety First</strong>: Prioritize physical and digital safety</li>
+                        <li><strong>Campus Integration</strong>: Seamless university system integration</li>
+                        <li><strong>Community Building</strong>: Foster safe student communities</li>
+                        <li><strong>Emergency Response</strong>: Rapid emergency capabilities</li>
+                        <li><strong>Academic Support</strong>: Secure academic collaboration</li>
+                    </ul>
+                </div>
+                <div class="tech-stack">
+                    <h3>🛠️ Technology Stack</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-flutter"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-map"></i>
+                            <span>Google Maps</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-lock"></i>
+                            <span>Encryption</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Cross-platform</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Real-time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>            <div class="dev-actions">
+                <a href="https://github.com/YOUR_USERNAME/meetapp-spu" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i>
+                    View Source Code
+                </a>
+                <a href="https://github.com/YOUR_USERNAME/meetapp-spu/blob/main/the_meet_app/README.md" class="btn btn-secondary" target="_blank">
+                    <i class="fas fa-book"></i>
+                    Developer Documentation
+                </a>
+                <a href="https://github.com/YOUR_USERNAME/meetapp-spu/issues" class="btn btn-outline" target="_blank">
+                    <i class="fas fa-bug"></i>
+                    Report Issues
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>📞 Get in Touch</h2>
+                <p>Questions, feedback, or want to contribute?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <h3>Sol Plaatje University</h3>
+                        <p>Student Safety & Security Initiative</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <h3>Open Source</h3>
+                        <p>Contribute to the project on GitHub</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Security</h3>
+                        <p>Report security issues responsibly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>MeetApp SPU</span>
+                </div>                <div class="footer-links">
+                    <a href="https://github.com/YOUR_USERNAME/meetapp-spu" target="_blank">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/YOUR_USERNAME/meetapp-spu/blob/main/the_meet_app/README.md" target="_blank">
+                        <i class="fas fa-book"></i>
+                        Documentation
+                    </a>
+                    <a href="https://github.com/YOUR_USERNAME/meetapp-spu/issues" target="_blank">
+                        <i class="fas fa-bug"></i>
+                        Issues
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MeetApp SPU - Student Safety & Security Platform. Made with ❤️ for SPU students.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

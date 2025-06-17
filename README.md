@@ -37,8 +37,8 @@ A Flutter-based mobile safety application designed specifically for Sol Plaatje 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/meetapp-spu.git
-   cd meetapp-spu
+   git clone https://github.com/LordGeeOne/TheMeetApp-spu.git
+   cd TheMeetApp-spu
    ```
 
 2. **Navigate to the Flutter project**
@@ -123,7 +123,7 @@ flutter build ios --release
 
 ## 🌐 GitHub Pages
 
-The project documentation is hosted on GitHub Pages at: `https://YOUR_USERNAME.github.io/meetapp-spu/`
+The project documentation is hosted on GitHub Pages at: `https://lordgeeone.github.io/TheMeetApp-spu/`
 
 The documentation website showcases:
 - Project overview and features
@@ -163,8 +163,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For support and questions:
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/meetapp-spu/issues)
-- **Documentation**: [Project Wiki](https://github.com/YOUR_USERNAME/meetapp-spu/wiki)
+- **Issues**: [GitHub Issues](https://github.com/LordGeeOne/TheMeetApp-spu/issues)
+- **Documentation**: [Project Wiki](https://github.com/LordGeeOne/TheMeetApp-spu/wiki)
 - **Email**: support@meetapp-spu.com
 
 ## 🎯 Roadmap

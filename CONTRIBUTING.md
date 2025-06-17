@@ -5,7 +5,7 @@ Thank you for your interest in contributing to MeetApp SPU! This document provid
 ## 🤝 How to Contribute
 
 ### Reporting Issues
-- Use the [GitHub Issues](https://github.com/YOUR_USERNAME/meetapp-spu/issues) page
+- Use the [GitHub Issues](https://github.com/LordGeeOne/TheMeetApp-spu/issues) page
 - Search existing issues before creating a new one
 - Provide detailed information about the bug or feature request
 - Include steps to reproduce for bugs

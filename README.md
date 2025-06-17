@@ -1,8 +1,8 @@
-# MeetApp SPU 🛡️
+# TheMeetApp 🛡️
 
-**Student Safety & Security Platform**
+**Open Source Student Safety Platform**
 
-A Flutter-based mobile safety application designed specifically for Sol Plaatje University (SPU) students. Prioritizing student safety while facilitating secure social meetups and group coordination.
+A 100% open source Flutter-based mobile safety application, originally designed for Sol Plaatje University (SPU) students and now available for all educational institutions. Built entirely with open source technologies, prioritizing student safety while facilitating secure social meetups and group coordination.
 
 ## 🌟 Features
 
@@ -192,3 +192,45 @@ Sol Plaatje University (SPU) is a public university in Kimberley, Northern Cape,
 **Made with ❤️ for SPU students**
 
 *For a safer, more connected campus experience.*
+
+## 🔧 Open Source Stack
+
+### Core Technologies
+- **Flutter & Dart** - UI framework and programming language
+- **VS Code** - Primary development environment
+- **Git** - Version control system
+
+### Backend & Database
+- **Supabase** - Open source Firebase alternative
+  - Real-time database with PostgreSQL
+  - Authentication and user management
+  - File storage solution
+- **Redis** - In-memory data structure store
+- **Matrix** - Decentralized communication protocol
+
+### Maps & Location
+- **OpenStreetMap** - Free world map data
+- **Maplibre GL** - Map rendering
+- **Nominatim** - Geocoding service
+
+### Security & Authentication
+- **Keycloak** - Identity and access management
+- **OpenSSL** - Cryptography toolkit
+- **Signal Protocol** - End-to-end encryption
+
+### Development Tools
+- **Docker** - Containerization
+- **GitLab CI** - Continuous Integration/Deployment
+- **Prometheus & Grafana** - Monitoring
+
+### Testing & Quality
+- **Jest** - Testing framework
+- **Selenium** - Automated testing
+- **SonarQube** - Code quality analysis
+
+### Benefits of Our Open Source Stack
+- Complete transparency and auditability
+- No vendor lock-in
+- Community-driven security
+- Freedom to modify and adapt
+- Long-term sustainability

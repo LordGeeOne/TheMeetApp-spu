@@ -575,7 +575,7 @@ body {
 .contact .contact-item p {
     color: #6b7280;
 }
-
+ 
 /* Open Source Stack Section */
 .tools-grid {
     display: grid;
@@ -626,41 +626,97 @@ body {
     margin: 0;
 }
 
-.open-source-footer {
+/* Data Contributions Section */
+.contribution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.contribution-category {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contribution-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contribution-category h3 {
+    color: #2563eb;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contribution-category h3 i {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+.contribution-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contribution-category li {
+    margin-bottom: 1.5rem;
+}
+
+.contribution-category li:last-child {
+    margin-bottom: 0;
+}
+
+.contribution-category li strong {
+    display: block;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.contribution-category li p {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.data-ethics {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
     padding: 2rem;
     background: rgba(37, 99, 235, 0.05);
     border-radius: 12px;
 }
 
-.highlight-text {
-    font-size: 1.25rem;
+.data-ethics h3 {
     color: #2563eb;
     margin-bottom: 1.5rem;
 }
 
-.benefits-list {
+.ethics-list {
     list-style: none;
     padding: 0;
-    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    margin: 0;
 }
 
-.benefits-list li {
+.ethics-list li {
     background: white;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 0.9rem;
     color: #4b5563;
-}
-
-.cta-container {
-    margin-top: 2rem;
 }
 
 /* Footer */
